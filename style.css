@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', Arial;
+}
+
+body {
+    background-color: rgb(6, 6, 6);
+    color: #fff;
+}
+
+.logo>img {
+    position: relative;
+    left: 5%;
+    padding-top: 30px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    gap: 40px;
+    padding-right: 80px;
+}
+
+.myself {
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+    left: 4%;
+}
+
+.myself h4 {
+    font-size: 20px;
+    color: rgb(230, 50, 50);
+}
+
+.myself>h1 {
+    font-size: 50px;
+    padding-left: 180px;
+    padding-top: 20px;
+}
+
+.myself>p {
+    font-size: 16px;
+    padding-left: 290px;
+    padding-top: 20px;
+}
+
+.myself>button {
+    border-style: none;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(238, 53, 53);
+    color: #fff;
+}
+
+.image1 {
+    position: absolute;
+    bottom: 10%;
+}
+
+.box {
+    padding-top: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 60px;
+}
+
+.part1,
+.part2,
+.part3 {
+    border-style: none;
+    background-color: rgba(53, 53, 56, 0.375);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    border-width: 20px;
+}
+
+.part2 {
+    background-color: rgb(238, 53, 53);
+    color: #ffffff;
+}
+
+.color {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.color span {
+    color: #ffffff;
+}
+
+.box p {
+    font-size: 12px;
+    padding-top: 12px;
+}
+.skills {
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(53, 53, 56, 0.375);
+}
+.know-more p,
+span {
+    font-size: 16px;
+    color: rgb(238, 53, 53)
+}
+.Experience {
+    width: 250px;
+    height: 220px;
+    background-color: rgba(53, 53, 56, 0.375);
+    text-align: center;
+    padding: 20px 20px;
+}
+.Experience>h1 {
+    font-size: 95px;
+}
+
+.achivments {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-bottom: 80px;
+}
+
+.achivments h1 {
+    color: rgb(238, 53, 53);
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding-bottom: 100px;
+}
+
+.view button {
+    border-style: none;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(238, 53, 53);
+    color: #fff;
+}
+
+.mid-part1,
+.mid-part2 {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.img>p {
+    padding-top: 40px;
+    color: rgb(238, 53, 53);
+}
+.img {
+    width :420px;
+    height: 300px;
+    padding: 10px 10px;
+    background-color: rgba(53, 53, 56, 0.375);
+    text-align: center;
+}
+.div1 {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+}
+
+.contact>button {
+    border-style: none;
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(238, 53, 53);
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bottom1 {
+    display: flex;
+    list-style: none;
+    font-size: smaller;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: left;
+    gap: 220px;
+    position: relative;
+    left: 15%;
+    top: 18px;
+}
+
+footer {
+    background-color: rgb(46, 44, 44);
+    width: 100%;
+    height: 100px;
+}
