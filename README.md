@@ -6,6 +6,7 @@ Hello there it's Neha Pandey.
 ### Challenges
 
 Since in this project ,I had to work on both HTML and CSS so there were lots of challenges for me like-
+- mobile responsive for min width 300px to 700px
 - flexbox properties (flex ,flex-direction and align- items , gap)
 - justify-content (space-between , space around, space-evenly,center)
 - backgrount color 
@@ -15,6 +16,6 @@ Since in this project ,I had to work on both HTML and CSS so there were lots of 
 
 ### Total time to complete this project
 
-It took me 6 hours to complete this project.
+It took me 7 hours to complete this project.
 
-![myproject link](./Project15-img.png)
+![myproject link](./images/Project15-img.png)

@@ -10,45 +10,35 @@ body {
     color: #fff;
 }
 
-.logo>img {
+.logo img {
     position: relative;
-    left: 5%;
-    padding-top: 30px;
+    left: 10%;
+    top: 40px;
 }
 
 .nav-menu {
     display: flex;
     justify-content: right;
     list-style: none;
-    gap: 40px;
-    padding-right: 80px;
-}
-
-.myself {
-    text-align: center;
-    margin-top: 60px;
-    position: relative;
-    left: 4%;
+    gap: 60px;
+    margin-right: 80px;
 }
 
 .myself h4 {
-    font-size: 20px;
+    font-size: 40px;
     color: rgb(230, 50, 50);
 }
 
 .myself>h1 {
-    font-size: 50px;
-    padding-left: 180px;
-    padding-top: 20px;
+    font-size: 58px;
 }
 
-.myself>p {
-    font-size: 16px;
-    padding-left: 290px;
-    padding-top: 20px;
+.myself p {
+    font-size: 18px;
+    line-height: 30px;
 }
 
-.myself>button {
+.btn>button {
     border-style: none;
     width: 130px;
     height: 40px;
@@ -56,9 +46,19 @@ body {
     color: #fff;
 }
 
-.image1 {
-    position: absolute;
-    bottom: 10%;
+.myself {
+    display: flex;
+    flex-direction: column;
+    line-height: 80px;
+    text-align: left;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    position: relative;
+    top: 150px;
 }
 
 .box {
@@ -101,6 +101,7 @@ body {
     font-size: 12px;
     padding-top: 12px;
 }
+
 .skills {
     width: 250px;
     height: 100px;
@@ -109,11 +110,13 @@ body {
     padding-bottom: 10px;
     background-color: rgba(53, 53, 56, 0.375);
 }
+
 .know-more p,
 span {
     font-size: 16px;
     color: rgb(238, 53, 53)
 }
+
 .Experience {
     width: 250px;
     height: 220px;
@@ -121,6 +124,7 @@ span {
     text-align: center;
     padding: 20px 20px;
 }
+
 .Experience>h1 {
     font-size: 95px;
 }
@@ -164,14 +168,18 @@ span {
     padding-top: 40px;
     color: rgb(238, 53, 53);
 }
+
 .img {
-    width :420px;
+    width: 420px;
     height: 300px;
     padding: 10px 10px;
     background-color: rgba(53, 53, 56, 0.375);
     text-align: center;
 }
-.div1 {
+
+.content {
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding-bottom: 40px;
     display: flex;
     justify-content: center;
@@ -210,4 +218,206 @@ footer {
     background-color: rgb(46, 44, 44);
     width: 100%;
     height: 100px;
+}
+
+@media screen and (min-width:300px) and (max-width:680px) {
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style: none;
+        gap: 10px;
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+
+    .myself h4 {
+        font-size: 26px;
+        color: rgb(230, 50, 50);
+    }
+
+    .myself>h1 {
+        font-size: 25px;
+    }
+
+    .myself p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .myself {
+        display: flex;
+        flex-direction: column;
+        line-height: 50px;
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        position: relative;
+        top: 10px;
+    }
+
+    .image1 img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .box {
+        padding: 30px;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        gap: 20px;
+        margin-bottom: 60px;
+    }
+
+    .part1,
+    .part2,
+    .part3 {
+        border-style: none;
+        background-color: rgba(53, 53, 56, 0.375);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+        height: 200px;
+        border-width: 20px;
+        padding: 10px;
+    }
+
+    .part2 {
+        background-color: rgb(238, 53, 53);
+        color: #ffffff;
+    }
+
+    .color {
+        font-size: 15px;
+        color: #ffffff;
+    }
+
+    .color span {
+        color: #ffffff;
+    }
+
+    .box p {
+        font-size: 10px;
+        width: 90px;
+        line-height: 15px;
+    }
+
+    .skills {
+        width: 380px;
+        height: 100px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(53, 53, 56, 0.375);
+    }
+
+    .know-more p,
+    span {
+        font-size: 16px;
+        color: rgb(238, 53, 53)
+    }
+
+    .Experience {
+        width: 250px;
+        height: 150px;
+        background-color: rgba(53, 53, 56, 0.375);
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+    .Experience>h1 {
+        font-size: 50px;
+    }
+
+    .achivments {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+
+    .achivments h1 {
+        color: rgb(238, 53, 53);
+    }
+
+    .feature {
+        display: inline;
+        position: relative;
+        left: 40px;
+        line-height: 40px;
+        padding: 40px;
+    }
+
+    .view button button {
+        border-style: none;
+        width: 130px;
+        height: 40px;
+        background-color: rgb(238, 53, 53);
+        color: #fff;
+    }
+
+    .mid-part1,
+    .mid-part2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 70px;
+        line-height: 30px;
+        padding-bottom: 50px;
+    }
+
+    .img img {
+        width: 300px;
+        height: 200px;
+        padding: 10px 5px;
+        background-color: rgba(53, 53, 56, 0.375);
+        text-align: center;
+    }
+
+    .content {
+        width: 70vw;
+        margin-left: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+        line-height: 30px;
+    }
+
+    .project h1 {
+        font-size: 20px;
+    }
+
+    .bottom1 {
+        display: flex;
+        list-style: none;
+        font-size: smaller;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer {
+        display: flex;
+
+        align-items: center;
+        gap: 60px;
+
+    }
+
+    footer {
+        background-color: rgb(46, 44, 44);
+        height: 100px;
+    }
 }
